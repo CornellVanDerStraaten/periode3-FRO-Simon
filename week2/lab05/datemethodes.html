@@ -4,11 +4,43 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <title>Datemethodes</title>
    <meta author="Cornell van der Straaten">
-
+   <style>
+      td {
+    border: 1px solid black;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   </style>
 </head>
 <body>
-    <h2>datemethodes</h2>
-    <span id="dateMethods">Hier komen de dateMethods</span>
-   <script src="lab05.js"></script>
+   <!--
+    Zoek minimaal 5 andere date methods op en laat het resultaat van deze
+    methods zien op het scherm.
+-->
+    <h2>datemethods</h2>
+    <button onclick="showTime()">Laat de tijd zijn</button>
+    <table>
+       <tr>
+          <td>Year</td>
+          <td><span id="showYear"></span></td>
+       </tr>
+       <tr>
+         <td>MonthNumber</td>
+         <td><span id="showMonth"></span></td>
+      </tr>
+      <tr>
+         <td>DayNumber</td>
+         <td><span id="showDay"></span></td>
+      </tr>
+      <tr>
+         <td>Hour</td>
+         <td><span id="showHour"></span></td>
+      </tr>
+      <tr>
+         <td>Minute</td>
+         <td><span id="showMinute"></span></td>
+      </tr>
+    </table>
+   <script src="datemethodes.js"></script>
 </body>
 </html>
