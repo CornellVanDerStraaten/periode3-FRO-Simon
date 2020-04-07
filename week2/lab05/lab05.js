@@ -5,10 +5,10 @@ const dateMethodInner = document.getElementById('dateMethods').innerHTML;
 // Gebruik de codestandaarden om dit bestand aan te passen
 let vandaag = new Date();
        document.write("<br />Vandaag is: " + vandaag);
-
+       // Array aanmaak voor 
        const maanden = new Array('januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december');
        const weekdag = new Array('zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag')
-
+       // Write todays date
        document.write("<br />Vandaag is: "
            + weekdag[vandaag.getDay()] +
            ' ' + vandaag.getDate() +
